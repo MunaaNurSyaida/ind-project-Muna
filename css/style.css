@@ -155,7 +155,7 @@ main {
   display: flex;
   align-items: center;
   margin-bottom: 80px;
-  font-family: 'Sacramento' ; /* Apply Sacramento font to headings */
+  font-family: 'Sacramento' ; 
   font-size: larger;
 
 }
@@ -371,7 +371,7 @@ a {
 header {
   background-color: #153b25;
   padding: 20px;
-  text-align: right; /* right-align header content */
+  text-align: right; 
 }
 
 nav ul {
@@ -417,10 +417,10 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 80px;
-  justify-content: center; /* Center the entire grid */
+  justify-content: center; 
   justify-items: center;
-  margin: 30px auto; /* Center the gallery within the body */
-  max-width: 1000px; /* Add a max-width to limit the gallery width */
+  margin: 30px auto; 
+  max-width: 1000px; 
 }
 
 .polaroid {
@@ -438,10 +438,11 @@ nav a:hover {
 }
 
 .caption {
-  font-size: 16px;
+  font-size: 14px;
   color: #333;
-  margin-top: 10px;
-  animation:alternate;
+  margin-top: 13px;
+  animation: alternate;
+  line-height: 1.5; 
 }
 
 @keyframes fadeInText {
@@ -461,6 +462,7 @@ footer {
   padding: 20px;
   font-size: 14px;
 }
+
 
 /*end of experience*/
 
