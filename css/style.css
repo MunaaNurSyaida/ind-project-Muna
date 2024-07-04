@@ -539,6 +539,19 @@ nav a:hover {
   color: #ccc;
 }
 
+.header-box .subheading {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #d3ddc3;
+}
+
+/* Line Spacing */
+.subheading {
+  line-height: 1.5; 
+  font-family: 'Merriweather', serif; 
+  color: #264530; 
+
+}
 /* Image Grid Section */
 .image-grid {
   display: flex;
